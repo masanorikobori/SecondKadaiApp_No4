@@ -10,10 +10,16 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    //2画面目のラベル
+    @IBOutlet weak var label: UILabel!
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        //textFieldの値を受け取りたい！
+        let text:String = UITextField.text!
+        label.text = "こんにちは \(text) さん"
     }
     
 
