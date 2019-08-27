@@ -65,7 +65,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="前のページに戻るボタン"/>
                                 <connections>
-                                    <segue destination="Vy9-Jx-J7W" kind="unwind" unwindAction="unwind:" id="SPJ-fJ-3lY"/>
+                                    <segue destination="Vy9-Jx-J7W" kind="unwind" unwindAction="unwind:" id="tkI-BU-Jcc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名前を表示" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rW9-vs-Bz9">
@@ -86,7 +86,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ui3-UN-7Ox" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Vy9-Jx-J7W" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1370" y="138"/>
+            <point key="canvasLocation" x="1368.8" y="137.4384236453202"/>
         </scene>
     </scenes>
 </document>
