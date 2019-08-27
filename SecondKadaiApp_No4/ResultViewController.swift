@@ -18,7 +18,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //textFieldの値を受け取りたい！
-        let text:String = UITextField.text!
+        let text:String = TextField.text!
         label.text = "こんにちは \(text) さん"
     }
     
