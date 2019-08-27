@@ -14,9 +14,9 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     // 受け取るためのプロパティ（変数）を宣言しておく
-    var text: String = text
+    var text: String = textField.text！
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
