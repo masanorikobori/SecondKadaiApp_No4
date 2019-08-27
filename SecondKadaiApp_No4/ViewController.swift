@@ -21,10 +21,11 @@ class ViewController: UIViewController {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
         
         //TextFieldの中に入力されている名前(文字列)を取り出して、それを画面遷移先に引き渡す
-        resultViewController.text = textField.text！
-    }
+           resultViewController.text = textField.text!
+  
 
     
+
     
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
@@ -33,3 +34,4 @@ class ViewController: UIViewController {
     
 }
 
+}
