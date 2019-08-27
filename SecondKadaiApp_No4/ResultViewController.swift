@@ -13,13 +13,16 @@ class ResultViewController: UIViewController {
     //2画面目のラベル
     @IBOutlet weak var label: UILabel!
     
+    // 受け取るためのプロパティ（変数）を宣言しておく
+    var text: String = textField.text！
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        //textFieldの値を受け取りたい！
-        let text:String = TextField.text!
-        label.text = "こんにちは \(text) さん"
+        //ViewControllerから入力されたtextFieldの値を受け取る
+        var result = textField.text！
+        label.text = "こんにちは \(result) さん"
     }
     
 

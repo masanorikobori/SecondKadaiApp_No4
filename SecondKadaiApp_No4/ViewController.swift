@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var tektField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,10 +19,12 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // segueから遷移先のResultViewControllerを取得する
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        // 重要ぽい！
-        let resultViewController:String = UITextField.text
+        
+        //TextFieldの中に入力されている名前(文字列)を取り出して、それを画面遷移先に引き渡す
+        resultViewController.text = textField.text！
     }
-    // ここから重要！ここまで
+
+    
     
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
